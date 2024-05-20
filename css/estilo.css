@@ -1,0 +1,203 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+.container, main{
+    width: 960px;
+    margin: auto;
+}
+
+header{
+    background-color:black ;
+    color: #fff;
+}
+
+#logo{
+    width: 250px;
+}
+
+#logo img{
+    width: 100%;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+}
+
+header section, header nav{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#direita{
+    flex-grow: 1;
+}
+
+header section{
+    letter-spacing: 5px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    text-transform:uppercase; /*transforma em maiusculo*/
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+main h1{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+footer nav a{
+    color: #fff;
+    text-decoration: underline overline;
+    margin: 10px;
+}
+
+main{
+    min-height: 500px;
+}
+
+.texto_banner{
+    font-size: 30pt;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#assistir{
+    background-color: rgb(9, 14, 58);
+}
+
+#assinar{
+    background-color: rgb(89, 85, 92);
+}
+
+#assistir, #assinar{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 350px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.destaque{
+    background-color: #ccc;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+
+.destaque div{
+    display: flex;
+}
+
+.destaque figure img{
+    width: 150px;
+}
+
+#galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#galeria img{
+    width: 250px;
+    margin: 15px;
+    border: 8px dashed #000;
+}
+
+.programacao{
+    display: flex;
+    flex-wrap: wrap; /*quebra linha se não couber*/
+}
+
+.programacao h3{
+    width: 100%;
+}
+
+.programacao article img{
+    width: 150px;
+}
+
+.programacao article{
+    display: flex;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.programacao article div{
+    padding: 30px;
+}
+
+#destaque_plus{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.planos{
+    width: 400px;
+    border: 2px solid blue;
+    border-radius: 50px;
+    margin: 20px auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.planos ul{
+    text-align: left;
+}
+
+.planos p span{
+    color: rgb(53, 84, 221);
+    font-size: 20pt;
+}
+
+#contato{
+    display: flex;
+    justify-content: space-around;
+}
+
+input, textarea{
+    display: block;
+    background-color: #ccc;
+    border-radius: 20px;
+    margin: 20px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    resize: none;
+    width: 300px;
+}
+
+#contato button{
+    width: 100%;
+    background-color: rgb(87, 87, 160);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15pt;
+}
